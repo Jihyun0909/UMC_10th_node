@@ -330,3 +330,6 @@ FROM member m
 
 WHERE m.id = :memberId
 ```
+
+- 수정된 ERD
+![alt text](erd_fixed.png)
