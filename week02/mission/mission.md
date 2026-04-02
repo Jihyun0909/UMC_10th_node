@@ -1,3 +1,6 @@
+- 1주차 ERD 리뷰 후 수정본
+![alt text](erd_umc2.png)
+
 #### 1. 내가 진행중, 진행 완료한 미션 모아서 보는 쿼리
 
 ![image.png](attachment:73326ad0-62fc-4eee-a90e-e44fd0dac7cc:image.png)
