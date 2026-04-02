@@ -3,7 +3,7 @@
 
 #### 1. 내가 진행중, 진행 완료한 미션 모아서 보는 쿼리
 
-![image.png](attachment:73326ad0-62fc-4eee-a90e-e44fd0dac7cc:image.png)
+![alt text](image.png)
 
 - 쿼리 빌딩 순서
     
@@ -27,9 +27,9 @@
     5단계: "그래서 화면에 뭘 내보낼까?" (SELECT 선택)
     마지막으로 화면에 뿌려줄 컬럼들만 골라 담는다. 처음부터 SELECT *로 시작하지 말고, 제일 마지막에 필요한 것만 적는 게 실수를 줄일 수 있다.
     
-- status 컬럼의 enum 요소
-    
-    ![image.png](attachment:af3365b7-e1b8-49ff-9ff2-0b04b6841c26:image.png)
+- member_mission의 status 컬럼의 enum 요소
+    ![alt text](image-1.png)
+  
     
 - 진행중인 미션
     - 진행중인 미션 페이지(CHALLENGING)
@@ -92,7 +92,7 @@
 
 #### 2. 리뷰 작성하는 쿼리
 
-![image.png](attachment:74ed0c49-175a-44ed-9a5f-c7faa7c46e99:image.png)
+![alt text](image-2.png)
 
 - 사장으로 로그인 한 경우
     - 답글은 가게 사장님만 달 수 있어야함 → member 테이블에서 사장과 고객을 구분하는 컬럼 추가 (ERD 수정사항 토글 참고)
@@ -240,7 +240,7 @@
 
 #### 3. 홈 화면 쿼리 (현재 선택 된 지역에서 도전이 가능한 미션 목록, 페이징 포함)
 
-![image.png](attachment:47ba2954-7c4b-4c4c-869d-2fc56a6a993e:image.png)
+![alt text](image-3.png)
 
 - 무엇을 출력해야될까?: 미션 진행 현황(status가 'COMPLETE'인 개수), 선택된 지역(region)에서 도전 가능한 미션 목록
     - 상단 미션 진행 현황과 하단 도전 가능 미션을 분리하여 작성
@@ -310,7 +310,7 @@
 
 #### 4. 마이 페이지 화면 쿼리
 
-![image.png](attachment:a2702e97-52af-4590-81fc-967f23b3701a:image.png)
+![alt text](image-4.png)
 
 - 무엇을 보여줘야 할까?: 이름, 이메일, 휴대폰 번호, 휴대폰 번호 인증 여부, 포인트
 
